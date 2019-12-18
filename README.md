@@ -36,9 +36,9 @@ https://blog.csdn.net/m0_37510446/article/details/100042541
 以管理员身份打开CMD，进入你安装mongodb目录的bin级目录下，例如我安装在D盘，我就进入到：
 D:\Program Files\MongoDB\Server\4.2\bin  
 然后执行：mongod   --dbpath "D:\Program Files\MongoDB\data\db", 这个是你安装的目录，回车后如果出现以下情况说明mongodb安装并启动成功  
-![Image text]()  
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/89a1cc1340dd5e25c5c57f6c5785148.png)  
 在浏览器输入http://localhost:27017，如果在浏览器中出现下面一段英文说明成功了  
-  ![Image text]()
+  ![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/1188378-20180806125916984-657763669.png)
   
 4.配置本地windows mongodb 服务  
 这样可设置为 开机自启动，可直接手动启动关闭，可通过命令行net start MongoDB 启动。该配置会大大方便。也不要在进入bin的目录下启动了  
@@ -54,11 +54,11 @@ mongod --config “D:\Program Files\MongoDB\Server\4.2\bin\mongod.cfg” -instal
 (4).然后继续在cmd里面输入下面指令（PS：你们换一下路径就OK了）  
 mongod -dbpath "D:\Program Files\MongoDB\data\db" -logpath "D:\Program Files\MongoDB\data\logs\MongoDB.log" -install -serviceName "MongoDB"  
 MongoDB就是启动的名字  
-![Image text]()  
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/5b03b7dbc80f7997bce5b4368fc2908.png)  
 (5).这样的话，mongodb服务Windows已经配置好了，我们可以不用进入bin的目录下启动MongoDB了，直接输入net start MongoDB命令即可  
-![Image text]()  
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/14782ce492588ffabce8c5ad5d38b02.png)  
 (6).在mongodb新建配置文件mongo.config,这个是和bin目录同级的  
-![Image text]()  
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/1188378-20180806130411849-1722530819.png)  
 用记事本打开mongo.config  ，并输入下面两个命令，然后保存:  
 dbpath=D:\Program Files\MongoDB\data\db
 logpath=D:\Program Files\MongoDB\data\logs\MongoDB.log
