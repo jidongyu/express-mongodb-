@@ -20,5 +20,8 @@ https://blog.csdn.net/m0_37510446/article/details/100042541
 
 1.安装
   从官网上下载之后双击安装即可，一直点“下一步”，
+  ![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/375a554de9b2a59f8fa0374f5d9f482.png)
   
-  到最后一步的时候去掉
+  到最后一步的时候去掉"Install MongoDB Compass"勾选，不然安装会超慢，甚至安装不上，千万不要不信邪！！！
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/f266fe8cdeb51cf84e098f3e8c4d00e.png)  
+2.配置环境，注意MongoDB虽然是非关系型数据库，但是用户环境和系统环境都需要配置
