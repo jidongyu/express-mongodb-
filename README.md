@@ -24,4 +24,6 @@ https://blog.csdn.net/m0_37510446/article/details/100042541
   
   到最后一步的时候去掉"Install MongoDB Compass"勾选，不然安装会超慢，甚至安装不上，千万不要不信邪！！！
 ![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/f266fe8cdeb51cf84e098f3e8c4d00e.png)  
-2.配置环境，注意MongoDB虽然是非关系型数据库，但是用户环境和系统环境都需要配置
+2.配置环境，注意MongoDB虽然是非关系型数据库，但是用户环境和系统环境都需要配置  
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/ab23e16e7f178537d71932111c0e5a9.png)
+![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/9d7b70eb8db5c193236afd8017b7dde.png)
