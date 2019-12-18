@@ -35,7 +35,7 @@ https://blog.csdn.net/m0_37510446/article/details/100042541
 ![Image text](https://github.com/jidongyu/express-mongodb-/blob/master/image-storage/c5ba823e22d5d1e7bee0d4ae3d5123f.png)  
 以管理员身份打开CMD，进入你安装mongodb目录的bin级目录下，例如我安装在D盘，我就进入到：
 D:\Program Files\MongoDB\Server\4.2\bin  
-然后执行：mongod   --dbpath D:\Program Files\MongoDB\data\db, 这个是你安装的目录，回车后如果出现以下情况说明mongodb安装并启动成功  
+然后执行：mongod   --dbpath "D:\Program Files\MongoDB\data\db", 这个是你安装的目录，回车后如果出现以下情况说明mongodb安装并启动成功  
 ![Image text]()  
 在浏览器输入http://localhost:27017，如果在浏览器中出现下面一段英文说明成功了  
   ![Image text]()
